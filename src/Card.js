@@ -1,6 +1,6 @@
 import React from "react";
 
-const card = ({name, id, email, username}) => {
+const Card = ({name, id, email, username}) => {
     // const {name, id, email, username} = props;
     return(
        
@@ -16,4 +16,4 @@ const card = ({name, id, email, username}) => {
     );
 } 
 
-export default card; 
+export default Card; 
